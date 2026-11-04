@@ -14,11 +14,10 @@
  header {
   border: 10px solid(#000000);
   padding: 10px;
+ background-color:rgb(0, 0, 0);
+	 max-width:100%;
  }
  
- .header {
-   background-color:rgb(0, 0, 0);
- }
 
  .header a ul li {
    padding: 0px 300px;
@@ -64,7 +63,6 @@
  img {
     max-width: 100%;
     display: block;
-    height: auto;
  }
 
  .contenitore { 
