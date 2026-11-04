@@ -266,7 +266,7 @@
 
 
 
-@media (min-width:390px) and (max-width:400px) { 
+@media (min-width:390px) and (max-width:425px) { 
   .header nav a ul li {
     font-size: 8px;
   }
