@@ -266,8 +266,8 @@
 
 
 
-@media (min-width:390px) and (max-width:425px) { 
-  .header nav a ul li {
+@media (min-width:48rem)  { 
+   .header nav a ul li {
     font-size: 8px;
   }
   .titolo-iniziale {
