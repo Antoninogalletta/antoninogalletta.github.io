@@ -273,7 +273,7 @@
    text-align: center;
    padding: 60px; 
 }
-@media (min-width:320px) { 
+@media (max-width:800px) { 
   main {
     min-width: 300px;
    max-width: 100%;
@@ -461,11 +461,11 @@
 
   .blocco-2  {
     width: 350px;
-    gap: 20px;
+    gap: 60px;
   }  
   .blocco-3  {
     width: 350px;
-    gap: 20px;
+    gap: 60px;
   }
 
   .blocco-1 .riga-p4 p h3 {
@@ -477,18 +477,20 @@
   .blocco-3 .riga-p4 p h3 {
     padding: 25px;
   }
-   .blocco-1 img{
-	   max-width:50%
-   }
-	 .blocco-2 img{
-	   max-width:50%
-   }
-	.blocco-3 img{
-	   max-width:50%
-   }
+
   .blocco-1 .blocco-2 .blocco-3 {
     padding-bottom: 80px;
     padding-top: 80px;
+  }
+  
+  .blocco-1 .immagini-4{
+    max-width: 50%;
+  }
+  .blocco-2 .immagini-4{
+    max-width: 50%;
+  }
+  .blocco-3 .immagini-4{
+    max-width: 50%;
   }
   .chiusura {
     text-align: center;
@@ -498,7 +500,7 @@
   .finale h1 {
     font-size: 40px;
     max-width: 440px;
-    margin-left: 0px;
+    margin-left: 70px;
   }
   footer p{
     font-size: 18px;
