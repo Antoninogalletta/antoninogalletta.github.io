@@ -477,7 +477,15 @@
   .blocco-3 .riga-p4 p h3 {
     padding: 25px;
   }
-
+   .blocco-1 img{
+	   max-width:50%
+   }
+	 .blocco-2 img{
+	   max-width:50%
+   }
+	.blocco-3 img{
+	   max-width:50%
+   }
   .blocco-1 .blocco-2 .blocco-3 {
     padding-bottom: 80px;
     padding-top: 80px;
@@ -490,7 +498,7 @@
   .finale h1 {
     font-size: 40px;
     max-width: 440px;
-    margin-left: 70px;
+    margin-left: 0px;
   }
   footer p{
     font-size: 18px;
