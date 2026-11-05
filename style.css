@@ -273,7 +273,7 @@
    text-align: center;
    padding: 60px; 
 }
-@media (max-width:480px) { 
+@media (min-width:320px) { 
   main {
     min-width: 300px;
    max-width: 100%;
