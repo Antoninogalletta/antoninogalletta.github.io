@@ -4,23 +4,33 @@
 
   
  body {
+   width: 100%;
+   max-width: 100%;
    margin: 0;
    font-family: "Cardo", serif;
    font-size: 24px;
    line-height: 1.5;
    background-color: black;
  }
-
- header {
+ main {
+   width: 100%;
+   max-width: 100%;
+ }
+ header { 
   border: 10px solid(#000000);
   padding: 10px;
- background-color:rgb(0, 0, 0);
-	 max-width:100%;
  }
  
+ .header {
+   background-color:rgb(0, 0, 0);
+ }
 
  .header a ul li {
-   padding: 0px 300px;
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   padding: 0;
  } 
  
   header {
@@ -63,10 +73,11 @@
  img {
     max-width: 100%;
     display: block;
+    height: auto;
  }
 
  .contenitore { 
-   max-width: 1120px;
+   max-width: 100%;
 	 margin: 0 auto; 
    text-align: center;
    padding: 60px;
@@ -254,31 +265,55 @@
 
 
  footer {
+   width: 100%;
    background-color: rgb(90, 101, 101);
  }
 
  footer p {
    text-align: center;
    padding: 60px; 
+}
+@media (max-width:800px) { 
+  main {
+    min-width: 300px;
+   max-width: 100%;
+   padding-left:0px;
+   padding-right: 0px;
+   margin-right: 00px;
  }
-
-
-
-@media (min-width:600px)  { 
-   .header nav a ul li {
+  header nav a ul li {
+    width:100%;
     font-size: 8px;
+  }
+  header{
+   max-width:100%;
+   padding-left:auto;
+   padding-right:auto;
   }
   .titolo-iniziale {
     align-content: center;
   }
   .titolo-iniziale h1{
-    font-size: 90px;
+    font-size: 70px;
   }
-  
+  .apertura{
+   max-width:100%;
+   width: 100%;
+  }
+  body{
+   max-width:auto;
+   padding-left:auto;
+   padding-right:auto;
+  }
   body h2 {
     font-size: 24px;
   }
-
+  body {
+    display:flex;
+    flex-direction: column;
+    width:100% ;
+  }
+  
   .parte-due .contenitore h1 h2 {
    text-align: center;
    margin: auto;
@@ -289,18 +324,25 @@
     margin-left: auto;
   }
   .parte-due .contenitore h1{
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
+    max-width: auto;
+    margin-left: 0px;
+    flex-wrap:nowrap;
   }
   .parte-due .titolo {
-    margin-left:-50px;
+    margin-left:0px;
   }
 
   .parte-due .contenitore .spiegazione h3 {
    align-items: center;
  }
 
-  
+  .parte-due .contenitore {
+    margin-left: auto;
+   margin-right: auto;
+    margin-left: 0px;
+  }
   .riga-1 .spiegazione{
     font-size: 18px;
   }
@@ -315,7 +357,7 @@
   
   .riga-4 .spiegazione{
     font-size: 18px;
-    max-width: 200px;
+    max-width: 600px;
     display: block;
     
   }
@@ -325,7 +367,7 @@
    justify-content: space-between;
    display: flex;
    align-items: center;
-   gap:150px ;
+   gap:20px ;
   }
 
 
@@ -334,7 +376,7 @@
    justify-content: space-between;
    display: flex;
    align-items: center;
-    gap:100px ;
+    gap:20px ;
   }
   
   .riga-3 {
@@ -342,16 +384,24 @@
    justify-content: space-between;
    display: flex;
    align-items: center;
-    gap:100px ;
+    gap:20px ;
   }
   .riga-4 {
    text-align: center;
    justify-content: space-between;
    display: flex;
    align-items: center;
-    gap:200px ;
+    gap:20px ;
   }
-
+ .riga-1, .riga-2, .riga-3, .riga-4 {
+   flex-direction: column;
+   gap: 30px; 
+   display: flex;
+   align-items: center;
+   text-align: center;
+   gap: 20px;
+   padding: 30px 0px;
+ }
   .riga-1 .titolo{
     font-size: 18px;
   }
@@ -392,12 +442,20 @@
   
   .blocco-1  {
     width: 350px;
-    gap: 60px;
+    margin-right: 20px;
   }  
+  .parte-4 .contenitore .blocco-1 .blocco-2 .blocco-3{
+    display: flex;
+    justify-content: left;
+    padding-left: 0px;
+  }
+  .parte-4 .contenitore h1 h2{
+    margin-right: 0px;
+  }
   .parte-4 .contenitore p {
     text-align: left;
    font-size: 15px;
-   max-width: 448px;
+   max-width: auto;
    max-height: 300px;
   }
 
