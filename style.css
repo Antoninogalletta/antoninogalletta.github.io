@@ -1,509 +1,900 @@
 * {
-	box-sizing: border-box; 
-}
-
-  
- body {
-   width: 100%;
-   max-width: 100%;
+   box-sizing: border-box;
    margin: 0;
-   font-family: "Cardo", serif;
-   font-size: 24px;
-   line-height: 1.5;
-   background-color: black;
- }
- main {
-   width: 100%;
-   max-width: 100%;
- }
- header { 
-  border: 10px solid(#000000);
-  padding: 10px;
- }
- 
- .header {
-   background-color:rgb(0, 0, 0);
- }
-
- .header a ul li {
-   list-style: none;
-   display: flex;
-   justify-content: center;
-   gap: 20px;
-   padding: 0;
- } 
- 
-  header {
-    font-size: 18px;
-  }
-
-  header p {
-    color: #FFFFFF;
-  }
-  nav p a {
-   color: #FFFFFF;
-  }
- nav {
-   align-content: space-between;
-   text-align: center;
-   justify-content: space-between;
-   display: flex;
-   padding:10px 0px;
- }
-
- h1, h2, h3, h4, h5, h6, p, ul, ol, li {
-    margin: 0;
-    padding: 0;
-    color:#FFFFFF  
- }
-
- .parte-due .riga-info {
- color:#FFFFFF
- }
-
- .riga-info h3 {
-   margin-top: 0px;
-   margin-left: 50px;
- }
-
- .riga-info .spiegazione {
-   margin-right: 0px;
- }
-
- img {
-    max-width: 100%;
-    display: block;
-    height: auto;
- }
-
- .contenitore { 
-   max-width: 100%;
-	 margin: 0 auto; 
-   text-align: center;
-   padding: 60px;
- }
-
- header, section, footer {
-   padding-inline: 2rem;
- }
-
- .apertura {
-   width:100%;
-   height:800px;
-   background-image: url("immagini/umwelt corretto.png");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-   display: flex;
-   text-align: center;
-   justify-content: center;
- }
- .apertura .titolo-iniziale {
-   justify-content: center;
-   align-items: center;
- } 
-
- .titolo-iniziale {
-   text-align: center;
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
- }
-
- .titolo-iniziale h1 {
-   font-size: 180px;
-   background-color: (#FFFFFF 20%);
-  
+ padding: 0;
    
- }
-
- .titolo-iniziale h2 {
-   font-size: 25px;
- }
-
- h1 {
-   font-size: 75px;
- }
-
- .parte-due{
-   padding: 100px;
- }
- .parte-due .contenitore h1 h2 {
-   text-align: center;
-   margin: auto;
-   display: flex;
-   padding: 30px 0px;
- }
-
- .riga-1 {
-   text-align: center;
-   justify-content: space-between;
-   display: flex;
-   align-items: center;
-   padding:50px 0px;
- }
-
- .riga .spiegazione h3 {
-   align-items:baseline
- }
-
- .riga-2 {
-   text-align: center;
-   justify-content: space-between;
-   display: flex;
-   align-items: center;
-   padding:50px 0px;
- }
-
- .riga-3 {
-   text-align: center;
-   justify-content: space-between;
-   display: flex;
-   align-items: center;
-   padding:50px 0px;
- }
-
- .riga-4 {
-   text-align: center;
-   justify-content: space-between;
-   display: flex;
-   align-items: center;
-   padding:50px 0px;
- }
-
- .spiegazione {
-   font-size: 22px;
- }
-
- .titolo {
-   display: flex;
- }
-
- .titoletti {
-   display: flex;
-   justify-content: space-between;
-   padding: 5px;
- }
-
- .immagini-2  {
-   display: flex;
-   justify-content: space-between;
-   padding: 15px;
- }
-
- .paragrafi-2 {
-   display: flex;
-   justify-content: space-between;
-   padding: 25px 15px; 
- }
-
- .relaz {
-   text-align: right;
-   font-size: 18px;
-   max-width: 448px;
- }
-
- .coevoluz {
-   text-align: left;
-   font-size: 18px;
-   max-width: 448px;
- }
-
- .blocco-1 {
-   text-align: center;
-   justify-content: space-between;
-   display: flex;
-   align-items: center;
-   padding:20px 50px;
-   padding-top: 30px;
- }
-
- .blocco-2 {
-   text-align: center;
-   justify-content: space-between;
-   display: flex;
-   align-items: center;
-   padding:20px 50px;
- }
-
- .blocco-3 {
-   text-align: center;
-   justify-content: space-between;
-   display: flex;
-   align-items: center;
-   padding:20px 40px;
- }
-
- .blocco-1 p h3 {
-    padding-right: 30px;
- }
-
- .blocco-2 p h3 {
-   padding-right: 30px;
- }
-
- .blocco-3 p h3 {
-   padding-right: 30px;
- }
-
- .chiusura{
-  max-height: 1000px;
-  text-align: center;
-  align-content: center;
-  display: flex;
- }
- .finale {
-  padding-top: 200px;
-   text-align: center;  
-   padding-bottom: 200px;
- }
-
- .finale h1 {
-   font-size: 50px;
-   padding: 0px;
- } 
-
-
- footer {
-   width: 100%;
-   background-color: rgb(90, 101, 101);
- }
-
- footer p {
-   text-align: center;
-   padding: 60px; 
 }
-@media (max-width:800px) { 
-  main {
-    min-width: 300px;
-   max-width: 100%;
-   padding-left:0px;
-   padding-right: 0px;
-   margin-right: 00px;
- }
-  header nav a ul li {
-    width:100%;
-    font-size: 8px;
-  }
-  header{
-   max-width:100%;
-   padding-left:auto;
-   padding-right:auto;
-  }
-  .titolo-iniziale {
-    align-content: center;
-  }
-  .titolo-iniziale h1{
-    font-size: 70px;
-  }
-  .apertura{
-   max-width:100%;
-   width: 100%;
-  }
-  body{
-   max-width:auto;
-   padding-left:auto;
-   padding-right:auto;
-  }
-  body h2 {
-    font-size: 24px;
-  }
-  body {
-    display:flex;
-    flex-direction: column;
-    width:100% ;
-  }
-  
-  .parte-due .contenitore h1 h2 {
-   text-align: center;
-   margin: auto;
-   display: flex;
-  }
-  .parte-due .contenitore p {
-    flex-wrap: nowrap;
-    margin-left: auto;
-  }
-  .parte-due .contenitore h1{
-    font-size: 30px;
-    text-align: center;
-    max-width: auto;
-    margin-left: 0px;
-    flex-wrap:nowrap;
-  }
-  .parte-due .titolo {
-    margin-left:0px;
-  }
 
-  .parte-due .contenitore .spiegazione h3 {
-   align-items: center;
- }
-
-  .parte-due .contenitore {
-    margin-left: auto;
-   margin-right: auto;
-    margin-left: 0px;
-  }
-  .riga-1 .spiegazione{
-    font-size: 18px;
-  }
-
-  .riga-2 .spiegazione{
-    font-size: 18px;
-  }
-
-  .riga-3 .spiegazione{
-    font-size: 18px;
-  }
-  
-  .riga-4 .spiegazione{
-    font-size: 18px;
-    max-width: 600px;
-    display: block;
+body {
     
-  }
- 
-  .riga-1 {
-   text-align: center;
-   justify-content: space-between;
-   display: flex;
-   align-items: center;
-   gap:20px ;
-  }
-
-
-  .riga-2 {
-   text-align: center;
-   justify-content: space-between;
-   display: flex;
-   align-items: center;
-    gap:20px ;
-  }
-  
-  .riga-3 {
-   text-align: center;
-   justify-content: space-between;
-   display: flex;
-   align-items: center;
-    gap:20px ;
-  }
-  .riga-4 {
-   text-align: center;
-   justify-content: space-between;
-   display: flex;
-   align-items: center;
-    gap:20px ;
-  }
- .riga-1, .riga-2, .riga-3, .riga-4 {
-   flex-direction: column;
-   gap: 30px; 
-   display: flex;
-   align-items: center;
-   text-align: center;
-   gap: 20px;
-   padding: 30px 0px;
- }
-  .riga-1 .titolo{
-    font-size: 18px;
-  }
-  .riga-2 .titolo{
-    font-size: 18px;
-  }
-  .riga-3 .titolo{
-    font-size: 18px;
-  }
-  .riga-4 .titolo{
-    font-size: 18px;
-  } 
-  
-  .parte-3 .contenitore h1{
-    font-size: 50px;
-    text-align: center;
-  }
-  
-  .parte-3 .contenitore .immagini-2{
-    max-width:50%;
     height:auto;
+    text-align:center;
     display: flex;
-    gap:40px;
-  }
-
-  .parte-4 .contenitore h1{
-    font-size: 50px;
-    text-align: center;
-  }
-
- .riga-p4 h3 {
-    font-size: 18px;
-  }
-
-  .riga-p4 p {
-    font-size: 18px;
-  }
-  
-  .blocco-1  {
-    width: 350px;
-    margin-right: 20px;
-  }  
-  .parte-4 .contenitore .blocco-1 .blocco-2 .blocco-3{
-    display: flex;
-    justify-content: left;
-    padding-left: 0px;
-  }
-  .parte-4 .contenitore h1 h2{
-    margin-right: 0px;
-  }
-  .parte-4 .contenitore p {
-    text-align: left;
-   font-size: 15px;
-   max-width: auto;
-   max-height: 300px;
-  }
-
-  .blocco-2  {
-    width: 350px;
-    gap: 60px;
-  }  
-  .blocco-3  {
-    width: 350px;
-    gap: 60px;
-  }
-
-  .blocco-1 .riga-p4 p h3 {
-    padding: 25px;
-  }
-  .blocco-2 .riga-p4 p h3 {
-    padding: 25px;
-  }
-  .blocco-3 .riga-p4 p h3 {
-    padding: 25px;
-  }
-
-  .blocco-1 .blocco-2 .blocco-3 {
-    padding-bottom: 80px;
-    padding-top: 80px;
-  }
-  
-  .blocco-1 .immagini-4{
-    max-width: 50%;
-  }
-  .blocco-2 .immagini-4{
-    max-width: 50%;
-  }
-  .blocco-3 .immagini-4{
-    max-width: 50%;
-  }
-  .chiusura {
-    text-align: center;
     align-content: center;
-    display: flex;
-  }
-  .finale h1 {
-    font-size: 40px;
-    max-width: 440px;
-    margin-left: 70px;
-  }
-  footer p{
-    font-size: 18px;
-  }
+    flex-direction: column;
+    justify-content: center;
+} 
+ 
+h1  {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 80px;
+}
+.apertura{
+    font-size: 25px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-left: auto;
+}
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
 }
 
+p {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body h1 h2 p {
+    color: black;
+}
+
+h1{
+    font-style: bold;
+}
+header .nome-sito {
+    font-size: 28px;
+    padding-left: auto;
+    color: #ffffffff;
+}
+
+header li a{
+    font-size: 20px;
+    margin-right: auto;
+    color: #ffffffff;
+}
+header .colonna {
+ display: flex;
+ justify-content: space-between;
+ padding: 10px;
+ padding-left: 10%;
+ padding-right: 10%;
+ color: black;
+}
+
+header  nav ul  {
+ display: flex;
+ flex-wrap: nowrap;
+ align-items: center;
+ gap: 50px;
+}
+header .nome-sito a{
+    color: #ffffffff;
+}
+header .contenitore {
+    background-color: rgb(0, 145, 255);
+    padding-bottom: 24px;
+    padding-top: 24px;
+    border-bottom: solid black;
+}
+header nav a{
+    font-size: 28px;
+    color: #ffffffff;
+    padding-right:auto; 
+   margin-left:auto;
+}
+ul{
+    list-style-type: none;
+}
+#archivio .pagina-isole {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#archivio .scritte-iniziali h1 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+#archivio .scritte-iniziali{
+   border-bottom: solid black
+}
+#archivio .scritte-iniziali .apertura {
+    display: flex;
+    text-align: center;
+    font-size: 32px;
+ flex-direction: column;
+  padding-left:15%;
+ padding-right:15%;
+}
+#archivio .scritte-iniziali .descrizioni{
+ text-align: center;
+ margin-top: 0px;
+ font-size: 20px;
+}
+
+#archivio .pagina-isole .scritte-iniziali{
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+#archivio .pagina-isole .descrizioni{
+ text-align: center;
+ margin-top: 0px;
+ margin-bottom: 10px;
+ font-size: 30px;
+}
+
+#archivio .pagina-isole h2{
+ text-align: center;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ font-size: 50px;
+ margin-left: 0px;
+}
+
+#archivio .pagina-isole .immagini-isole{
+    display: flex;
+    text-align: center;
+    align-content:center;
+    flex-direction: column;
+    margin-left: auto;
+}
+#archivio .immagini-isole {
+    padding:0px
+}
+#archivio .immagini-isole{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-left: auto;
+    margin-bottom: 0px;
+}
+
+#archivio .pagina-isole .immagine-isole .pantelleria {
+    padding:0px
+}
+
+#archivio .pantelleria{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#archivio .favignana{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#archivio .ustica{
+   padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#archivio .salina{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#archivio .alicudi{
+ padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#archivio .lampedusa{
+ padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer {
+   background-color: rgb(90, 101, 101);
+   border-top: solid black;
+}
+
+footer .colonna{
+ display: flex;
+ justify-content: space-between;
+ padding: 44px;
+}
+ 
+footer nav a{
+    font-size: 20px;
+    color: #ffffffff;
+}
+
+footer .nome-sito {
+    font-size: 22px;
+    color: #ffffffff;
+}
+footer .nome-sito a {
+    font-size: 22px;
+    color: #ffffffff;
+}
+
+footer  nav ul li{
+    display: inline-block;
+    justify-content: space-between;
+    justify-content: center;
+    padding-right:10%;
+    padding-left:10%;
+}
+
+#isola-singola ul{
+    list-style-type: none;
+}
+
+#isola-singola .sopra-titolo a{
+    color: black;
+    width: 100%;
+    padding-right: 0px;
+}
+#isola-singola .sopra-titolo .briciole ol  {
+    display: flex;
+    gap:10%;
+}
+#isola-singola ol{
+    list-style-type: none;
+    align-items: baseline;
+}
+#isola-singola .apertura {
+    padding-top: 100px;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#isola-singola .colonna-sinistra {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    align-items: flex-start;
+}
+
+#isola-singola .colonna-sinistra{
+ display: flex;
+ justify-content: space-between;
+ padding-top:100px;
+ padding-bottom:140px;
+ color: black;
+ max-width: 0px;
+ position: relative;
+}
+#isola-singola .apertura h1 {
+    font-size: 80px;
+}
+#isola-singola .apertura .intro {
+    font-size: 22px;
+    text-align: left;
+}
+
+#isola-singola .apertura .immagine img{
+    display: flex;
+    position:absolute;
+    margin-left: 33%; 
+    max-width: 100%;
+
+}
+#isola-singola .parte-due {
+    padding-top: 50px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding-left:20%;
+    padding-right:15%;
+   
+}
+
+#isola-singola .parte-due{
+ background-color: rgb(217,217,217);
+}
+
+#isola-singola .parte-due h2{
+    text-align: left;
+    font-size: 35px;
+    flex-wrap: wrap;
+    padding-right: 0%;
+}
+#isola-singola .parte-due .descrizione{
+    text-align: right;
+    font-size: 20px;
+    flex-wrap: wrap;
+    padding-right: 0%;
+    padding-left: 10%;
+}
+#isola-singola .sezione-2 {
+    display: flex;
+ text-align: center;
+ align-content: space-between;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ font-size: 20px;
+}
+#isola-singola .sezione-3 {
+    display: flex;
+ text-align: center;
+ align-content: space-between;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ font-size: 20px;
+}
+#isola-singola .sezione-4 {
+    display: flex;
+ text-align: center;
+ align-content: space-between;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ font-size: 20px;
+}
+#HOME .inizio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+#HOME .inizio .scritte-iniziali{
+    padding-top: 10%;
+    padding-bottom:10%;
+}
+#HOME .inizio .scritte-iniziali h1 {
+    font-size: 80px;
+  padding-left:15%;
+  padding-right:15%;
+}
+#HOME .inizio .scritte-iniziali .sottotitolo {
+    font-size: 28px;
+   width:100%;
+   margin-left: auto;
+   padding: 5%;
+    padding-left:15%;
+ padding-right:15%;
+}
+#HOME .isole-minori{
+    background-color: rgb(217, 217, 217);
+    border-top: solid black;
+    border-bottom: solid black;
+}
+#HOME .isole-minori .introduzione h1{
+ font-size: 60px;
+ padding-bottom: 10px;
+ padding-top: 80px;
+}
+#HOME .isole-minori .introduzione .descrizione{
+ font-size: 18px;
+ padding-bottom: 10px;
+ 
+}
+#HOME .immagini-isole-home{
+    max-width: 100%;
+}
+#HOME   .titoletti {
+    padding-top: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#HOME .riga-1 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content:  space-between;
+    text-align: center;
+    align-content: center;
+    max-width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#HOME .riga-2 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content:  space-between;
+    text-align: center;
+    align-content: center;
+    max-width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#HOME .riga-3 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content:  space-between;
+    text-align: center;
+    align-content: center;
+    max-width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+#HOME .parte-3 .solitud {
+padding-top: 20%;
+padding-bottom: 20%;
+border-bottom: solid gray;
+border-radius: 2px;
+}
+#HOME .parte-3 .solitud .titolo {
+font-size: 60px;
+max-width: auto;
+}
+#HOME .parte-3 .solitud .descrizione {
+    padding-top: 20px;
+ font-size: 20px;
+  max-width: auto;
+ padding-bottom: 20px;
+}
+#HOME .parte-3 .solitud .link {
+    margin-left: 0%;
+}
+#HOME .parte-4 .dati {
+padding-top: 20%;
+padding-bottom: 20%;
+
+}
+#HOME .parte-4 .dati .titolo {
+ font-size: 60px;
+ margin-left: auto;
+ max-width: 100%;
+}
+#HOME .parte-4 .dati .descrizione {
+    padding-top: 20px;
+ font-size: 20px;
+  max-width: 100%px;
+ padding-left:15%;
+ padding-right:15%;
+}
+#HOME .parte-4 .link {
+    padding-top: 18px;
+    margin-left: auto;
+    font-size: 15px;
+}
+
+#tema .inizio .scritte-iniziali {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#tema .inizio .scritte-iniziali h1{
+   font-size: 70px;
+}
+#tema .inizio .scritte-iniziali .sottotitolo{
+   font-size: 25px;
+   max-width: 100%;
+   margin-left: 20%;
+   margin-right: 20%;
+   padding-top: 40px;
+}
+#tema .introduzione {
+    border-top: solid black;
+    border-bottom: solid black;
+}
+#tema .introduzione .problema h1 {
+    font-size: 60px;
+    padding-bottom: 40px;
+  margin-left: 20%;
+    margin-right: 20%;
+}
+#tema .introduzione .problema .descrizione{
+    font-size: 40px;
+    max-width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 0px;
+    border: solid black;
+    text-align: center;
+}
+#tema .introduzione .problema{
+    padding-top: 10%;
+    padding-bottom: 10%;
+   
+}
+
+#tema .analisi {
+    padding-top: 10%;
+    padding-bottom: 10%;
+     background-color: rgb(217,217,217);
+}
+
+#tema .analisi .schema  {
+    padding-bottom: 5%;
+}
+#tema .analisi .schema h1  {
+    padding-bottom: 5%;
+}
+#tema .analisi .schema h2  {
+    padding-bottom: 0%;
+}
+#tema .analisi .immagine-schema img{
+    border:solid  black;
+    border-radius: 5px;
+}
+
+#tema .approfondimento {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border-top: solid black;
+  border-bottom: solid black;
+   display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5% ;
+}
+#tema .approfondimento h1{
+    font-size: 60px;
+}
+#tema .approfondimento .riga-1{
+   padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content:  space-between;
+    text-align: center;
+    align-content: center;
+    max-width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 10%;
+}
+
+#tema .approfondimento .riga-2{
+   padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content:  space-between;
+    text-align: center;
+    align-content: center;
+    max-width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 10%;
+}
+
+
+#tema .approfondimento .riga-1 .titoletti{
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#tema .approfondimento .riga-2 .titoletti{
+    font-size: 28px;
+    font-weight: bold;
+       padding-top: 10%;
+    padding-bottom: 5%;
+}
+#tema .approfondimento .riga-1 .descrizione{
+    font-size: 30px;
+    border: solid black;
+    width: 100%;
+    padding-top: 0%;
+   
+}
+#tema .approfondimento .riga-2 .descrizione{
+    font-size: 30px;
+    border: solid black;
+    width: 100%;
+   
+}
+
+
+
+@media (max-width:600px) {
+   
+    #archivio .pagina-isole .scritte-iniziali .apertura{
+        font-size: 24px;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        padding-top: 20px;
+    } 
+    #archivio .scritte-iniziali h1 {
+        font-size: 30px;
+    }
+    #archivio .scritte-iniziali .apertura{
+        padding-bottom: 0px;
+    }
+    #archivio .pantelleria{
+        margin-top: 20%;
+    }
+    #archivio .scritte-iniziali{
+        padding-top: 0%;
+    }
+
+    #archivio .pagina-isole .immagini-isole {
+        display: flex;
+        align-content: center;
+    }
+    #archivio .pagina-isole h2  {
+       font-size: 30px;
+        padding-left: 10% ;
+     padding-right: 10% ;
+    }
+     #archivio .pagina-isole .descrizioni  {
+       font-size: 20px;
+        padding-left: 10% ;
+     padding-right: 10% ;
+    }
+
+    #archivio .pantelleria .immagini-isole img{
+     padding-left: 10% ;
+     padding-right: 10% ;
+     max-width: 100%;
+    }
+    #archivio .favignana .immagini-isole img{
+     padding-left: 10% ;
+     padding-right: 10% ;
+     max-width: 100%;
+    }
+    #archivio .ustica .immagini-isole img{
+     padding-left: 10% ;
+     padding-right: 10% ;
+     max-width: 100%;
+    }
+    #archivio .salina .immagini-isole img{
+     padding-left: 10% ;
+     padding-right: 10% ;
+     max-width: 100%;
+    }
+    #archivio .Alicudi .immagini-isole img{
+     padding-left: 10% ;
+     padding-right: 10% ;
+     max-width: 100%;
+    }
+    #archivio .lampedusa .immagini-isole img{
+     padding-left: 10% ;
+     padding-right: 10% ;
+     max-width: 100%;
+    }
+    #archivio .pantelleria{
+     padding-top: 20px;
+     padding-bottom: 35px;
+    }
+
+   #archivio .favignana{
+     padding-top: 50px;
+     padding-bottom: 55px;
+   }
+
+  #archivio .ustica{
+     padding-top: 50px;
+     padding-bottom: 75px;
+    }
+
+ #archivio .salina{
+     padding-top: 50px;
+     padding-bottom: 75px;
+    } 
+
+ #archivio .alicudi{
+     padding-top: 50px;
+     padding-bottom: 200px;
+    }
+
+ #archivio .lampedusa{
+     padding-top:50px;
+     padding-bottom: 50px;
+    }
+
+    header .contenitore  {
+     background-color: rgb(0, 145, 255);
+     padding-bottom: 10px;
+     padding-top: 10px;
+     border-bottom: solid black;
+    }
+    header {
+        width: auto;
+    }
+    header nav a{
+     font-size: 15px;
+     color: #ffffffff;
+    }
+    
+    header .colonna{
+     display: flex;
+     justify-content: space-between;
+     padding: 20px;
+    }
+    header nav ul li a{
+     display: inline-block;
+     justify-content: space-between;
+     padding-left: 0%;
+    }
+    
+    header .colonna .nome-sito {
+     font-size: 15px;
+    }
+
+    #archivio .pagina-isole {
+    padding-top: 10px;
+    }
+    footer {
+        width: auto;
+    }
+    footer nav a{
+     font-size: 15px;
+     color: #ffffffff;
+    }
+    
+    footer .colonna{
+     display: flex;
+     justify-content: space-between;
+     padding: 10%;
+    }
+    footer nav ul li a{
+     display: inline-block;
+     justify-content: space-between;
+     padding-right: 50%;
+     padding-left: 0%;
+     font-size: 20px;
+    }
+    
+    footer .colonna .nome-sito {
+     font-size: 20px;
+    }
+    
+    #isola-singola .apertura {
+      display: flex;
+      align-content: center;
+      margin-left: 0%;
+    }
+    #isola-singola .sopra-titolo .briciole{
+        font-size: 15px;
+    
+    }
+    
+   #isola-singola .colonna-sinistra{
+      display: flex;
+     justify-content: space-between;
+
+     position: relative;
+    }
+    #isola-singola .colonna-sinistra .sopra-titolo .briciole ol li  {
+     display: flex;
+     text-align: left;
+   
+    }
+    #isola-singola .colonna-sinistra{
+        padding:10%;
+    }
+  #isola-singola .briciole li {
+      display: flex;
+   }
+
+   #isola-singola .apertura h1 {
+     font-size: 30px;
+    }
+   #isola-singola .apertura .intro {
+     font-size: 12px;
+     text-align: left;
+    }
+    #isola-singola .apertura .immagine img{
+     display: flex;
+     position:absolute; 
+     max-width: 45%;
+     margin-right: 5%;
+     margin-left: 35%;
+     margin-top: 5%;
+    }
+    
+    #isola-singola .parte-due {
+      padding-top: 50px;
+     display: flex;
+     align-content: center;
+     flex-direction: column;
+     padding-left:10%;
+     padding-right:10%;
+    }
+
+    #isola-singola .parte-due h2{
+     font-size: 20px;
+     flex-wrap: wrap;
+    }
+   #isola-singola .parte-due .descrizione{
+     text-align: right;
+     font-size: 15px;
+     flex-wrap: wrap;
+    }
+
+    #HOME .inizio .scritte-iniziali h1 {
+        font-size: 28px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+    #HOME .inizio .scritte-iniziali .sottotitolo {
+        font-size: 18px;
+    }
+    #HOME .isole-minori .introduzione h1{
+        font-size: 28px;
+    }
+    #HOME .riga-1 {
+     display: flex;
+     justify-content:  space-between;
+     text-align: center;
+      align-content: center;
+     max-width: 100%;
+     margin-left: 0%;
+     margin-right: 0%;
+    }
+    #HOME .riga-2 {
+     display: flex;
+     justify-content:  space-between;
+     text-align: center;
+      align-content: center;
+     max-width: 100%;
+     margin-left: 0%;
+     margin-right: 0%;
+    }
+    #HOME .riga-3 {
+     display: flex;
+     justify-content:  space-between;
+     text-align: center;
+      align-content: center;
+     max-width: 100%;
+     margin-left: 0%;
+     margin-right: 0%;
+    }
+
+
+    #HOME .isole-minori .riga-1 .lampedusa .immagini-isole-home img {
+     max-width: 90%;
+    }
+
+    #HOME .isole-minori .riga-1 .alicudi .immagini-isole-home img {
+     max-width: 90%;
+    }
+    #HOME .isole-minori .riga-2 .favignana .immagini-isole-home img {
+     max-width: 90%;
+    }
+    #HOME .isole-minori .riga-2 .salina .immagini-isole-home img {
+     max-width: 90%;
+    }
+    #HOME .isole-minori .riga-3 .ustica .immagini-isole-home img {
+     max-width: 90%;
+    }
+    #HOME .isole-minori .riga-3 .Pantelleria .immagini-isole-home img {
+     max-width: 90%;
+    }
+    
+    #tema .inizio .scritte-iniziali h1 {
+        font-size: 28px;
+    }
+    #tema .inizio .scritte-iniziali .sottotitolo{
+        font-size: 20px;
+    }
+    #tema .introduzione .problema h1 {
+        font-size: 28px;
+    }
+    #tema .introduzione .problema .descrizione {
+        font-size: 18px;
+    }
+    #tema .analisi .schema h1{
+        font-size: 28px;
+    }
+    #tema .analisi .schema h2{
+        font-size: 20px;
+    }
+    #tema .analisi .immagine-schema img{
+        max-width: 90%;
+    }
+    #tema .approfondimento h1 {
+        font-size: 28px;
+    }
+
+    #tema .approfondimento .riga-1  .titoletti{
+        font-size: 20px;
+    }
+    #tema .approfondimento .riga-2  .titoletti{
+        font-size: 20px;
+    }
+    #tema .approfondimento .riga-1  .descrizione{
+        font-size: 19px;
+    }
+    #tema .approfondimento .riga-2  .descrizione{
+        font-size: 19px;
+    }
+}
